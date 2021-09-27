@@ -1,4 +1,3 @@
-
 package affin;
 public class Affin {
 // input kunci
@@ -56,6 +55,9 @@ public class Affin {
            //input plaintext
     String msg = "HILDANNIARFAUZI"; 
     String cipherText = Message(msg.toCharArray()); 
+    System.out.println("Plain Text is : HILDANNIARFAUZI" );
+    System.out.println("Key a is : 5 " );
+    System.out.println("Key b is : 7 " );
     System.out.println("Encrypted Message is : " + cipherText);  //menampilkan hasil enkripsi
     System.out.println("Decrypted Message is: " + Cipher(cipherText)); //menampilkan hasil deskripsi
   } 
